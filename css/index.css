@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    border-bottom: 1px solid #000 ;
+}
+
+.carousel .slide{
+    position: relative;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+}
+
+.carousel .slide:last-child {
+    border-right: none;
+}
+
+.carousel .slide:hover {
+    flex-grow: 5;
+}
+
+.carousel .slide:nth-child(1) {
+    background: url('../img/slide-banner/slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.carousel .slide:nth-child(2) {
+    background: url('../img/slide-banner/slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.carousel .slide:nth-child(3) {
+    background: url('../img/slide-banner/slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel .slide .contenido {
+    position: absolute;
+    bottom: 0;
+    margin: 40px;
+    padding: 30px;
+    background: #27ae5f94;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms;
+    transform: translateY(100px);
+    border-radius: 5px;
+}
+
+.carousel .slide:hover .contenido {
+    visibility: visible;
+    opacity: 1;
+    transition: 500ms;
+    transition-delay: 500ms;
+    transform: translateY(0);
+}
+
+.carousel .slide .contenido h2{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #3a3838;
+}
+
+.carousel .slide .contenido p {
+    font-size: 22px;
+}
+
+.info-paws{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid  #27ae5f44;
+    margin: 80px;
+}
+
+main .headline h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 40px 0;
+}
+
+.info-paws h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.info-paws p {
+    text-align: justify;
+    margin: 25px 0px 25px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.banner-medio {
+    background-image: url('../img/banner-medio.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inicio - Sección de las Siglas */
+
+.siglas-principal {
+    width: 100%;
+    display: block;
+}
+
+.siglas-principal .siglas-interno {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.siglas-principal .siglas-interno .elementos-siglas {
+    width: 25%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+} 
+.siglas-principal .siglas-interno .elementos-siglas .letra-sigla{
+    font-size: 60px;
+    text-shadow: 1px 1px rgba(216, 127, 11, 0.739);
+
+}
+
+.siglas-principal .siglas-interno .elementos-siglas h3{
+    font-size: 24px;
+    border-bottom: 1px solid #27ae5f44;
+    margin-bottom: 15px;
+}
+.siglas-principal .siglas-interno .elementos-siglas p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    color: #000;
+}
+
+.siglas-principal .siglas-interno .elementos-siglas .subrayado-siglas {
+    height: 4px;
+    width: 65px;
+    background: #e67e22;
+    color: #e67e22;
+    border: 0px;
+    margin-bottom: 40px;
+}
+
+
+/* Fin - Sección de las Siglas */
+
+
+/* Inicio - Sección de testimonios */
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wrapper .caja-testimonios {
+    background: #e74c3c;
+    border-radius: 3px;
+    padding: 25px;
+    width: calc(33% - 10px);
+    color: #fff;
+    min-height: 300px;
+}
+
+.wrapper .caja-testimonios .quote{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.wrapper .caja-testimonios .contenido-testimonio {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .caja-testimonios .contenido-testimonio .foto-testimonio {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.caja-testimonios .contenido-testimonio .foto-testimonio img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+
+.wrapper .caja-testimonios .info-testimonio .nombre {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.wrapper .caja-testimonios .info-testimonio .rol {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.titulo-testimonios h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+/* Fin - Sección de testimonios */
+
+
+/* Inicio - Contacto */
+
+.wrap-form{
+    width: 100%;
+    display: block;
+}
+.formulario{
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.formulario h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.formulario div{
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.formulario label{
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario input{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario textarea{
+    width: 600px;
+}
+.formulario select{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario .btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+
+}
+
+.formulario .btn:hover {
+    transition: 300ms;
+    background: #e67e22;
+    cursor: pointer;
+}
+
+/* Fin - Contacto */
+
+/* Modo de vista para tablets */
+
+@media screen and (max-width: 1045px) {
+
+    .banner-medio {
+        background-image: url('../img/banner-medio-mobile.gif');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-paws{
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .info-paws p {
+        text-align: center;
+        margin: 25px 0px 25px 0px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .carousel .slide .contenido h2{
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px rgb(58, 56, 56);
+    }
+    
+    .carousel .slide .contenido p {
+        font-size: 20px;
+    }
+
+    .siglas-principal .siglas-interno .elementos-siglas {
+        width: 50%;
+    }    
+
+    .wrapper .caja-testimonios {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
+    .wrap-form{
+        width: 100%;
+        display: block;
+    }
+    .formulario{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .formulario input{
+        width: 400px;
+        height: 50px;
+    }
+    
+    .formulario textarea{
+        width: 400px;
+        height: 50px;
+    }
+    .formulario select{
+        width: 400px;
+        height: 50px;
+    }
+}
+
+
+/* Modo de vista para celulares */
+
+@media screen and (max-width: 500px) {
+    .banner-medio {
+        background-image: url('../img/banner-medio-mobile.gif');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-paws{
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .info-paws p {
+        text-align: center;
+        margin: 25px 0px 25px 0px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+    .carousel .slide .contenido h2{
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px rgb(58, 56, 56);
+    }
+    
+    .carousel .slide .contenido p {
+        font-size: 16px;
+    }
+
+    .siglas-principal .siglas-interno .elementos-siglas {
+        width: 100%;
+        margin-bottom: 50px;
+    } 
+
+    .wrapper .caja-testimonios {
+        width: 100%;
+    }
+
+
+    .wrap-form{
+        width: 100%;
+        display: block;
+    }
+    .formulario{
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .formulario input{
+        width: 300px;
+    }
+    
+    .formulario textarea{
+        width: 300px;
+    }
+    .formulario select{
+        width: 300px;
+    }
+}

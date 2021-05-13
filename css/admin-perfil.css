@@ -1,0 +1,277 @@
+/* Estilos del main */
+
+#botones {
+  display: inline-block;
+  margin-top: -150px;
+  padding-left: 80vw;
+  position: relative;    
+}
+
+#fondo-perfil {
+  background-image: url('../img/admin-snake.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+#fondo-perfil h1 {
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 1px 1px #000;
+  padding-left: 420px;
+  padding-top: 240px;
+  position: relative;
+}
+
+#foto-perfil {
+  background-image: url(/img/admin-profile-picture.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  height: 340px;
+  margin-top: -200px;
+  margin-left: 50px;
+  position: relative;
+  width: 340px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.icon-social {
+  height: 45px;
+  margin: 10px 15px;
+}
+
+.icon-animal {
+  display: inline-block;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+
+.perfil-contenedor {
+  display: block;
+  width: 100%;
+}
+
+.perfil-contenedor .perfil-interno {
+  width: 95%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .info-titulo {
+  margin: 30px 0;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .info-items {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .info-titulo h2 {
+  display: flex;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  color: #000;
+  font-size: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla .foto-mascota {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+}
+
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla {
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla thead tr {
+  background: #19646b;
+  color: #fff;
+  height: 45px;
+  border-bottom: 1px solid #fff;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla thead tr th {
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla tbody tr:nth-child(even) {
+  background: #b4b6b8;
+  color: #fff;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla tbody tr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla tbody tr td {
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla .btn {
+  background: #22a6b3;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 2px rgb(95, 95, 95);
+  font-size: 16px;
+  font-family: 'Florentia-regular';
+  color: #fff;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla tbody tr:nth-child(even) .btn {
+  background: #fff;
+  color: #000;
+}
+
+.perfil-contenedor .perfil-interno .grupo-perfil .tabla .btn:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.icon {
+  height: 40px;
+}
+
+.info {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 40px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.btn-verde {
+  background: #27ae60;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 2px rgb(95, 95, 95);
+  font-size: 18px;
+  font-family: 'Florentia-regular';
+  color: #fff;
+  width: 200px;
+}
+
+.btn-verde:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.botones-final {
+  padding: 15px;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.botones-final-empresa {
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner-perfil {
+  background-image: url('../img/banner-perfil.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  width: 640px;
+  align-items: center;
+  display: flex;
+  float: right;
+  margin-top: -100px;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.empresa-logo {
+  width: 200px;
+  height: 150px;
+  background-image: url('../img/logo-empresa.png');
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.contenedor-externo {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.contenedor-externo .contenedor {
+  margin-top: 20px;
+  height: 120px;
+  background-color: #F7F7F7;
+  padding: 0 auto;
+  text-align: center;
+  box-shadow: 2px 2px 7px 1px #6d6d6d;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.contenedor-externo .contenedor img {
+  vertical-align: middle;
+  align-items: center;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+.contenedor-externo .contenedor h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px;
+}

@@ -1,0 +1,134 @@
+.titulo-historial h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 80px;
+}
+
+.lista .tabla button {
+    font-family: "Florentia-regular";
+    font-size: 14px;
+    margin-left: 25px;
+    background-color: #22a6b3;
+    color: #fff;
+    border: #9c9ea0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #999;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #27ae5f44;
+    margin: 80px;
+}
+
+.tabla {
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px rgb(107, 107, 107);
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.tabla thead tr {
+    background: #19646b;
+    color: #fff;
+    height: 45px;
+    border-bottom: 1px solid #fff;
+}
+
+.tabla thead tr th {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #b4b6b8;
+    color: #fff;
+}
+
+.tabla tbody tr {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tabla tbody tr td {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.tabla tbody tr .foto-historial {
+    background-image: url('../img/historial.jpeg');
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+
+.tabla button {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    margin-right: 7px;
+}
+
+.tabla .btn:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#txt-filtro {
+    width: 200px;
+}
+
+.botones-final {
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.btn-top {
+    background: #27ae60;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    width: 130px;
+}
+
+.botones-final label {
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+#sin-resultados {
+    text-align: center;
+    color: #6b6b6b;
+    font-size: 18px;
+    font-style: italic;
+}

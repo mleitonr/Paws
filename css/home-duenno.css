@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Florentia-regular";
+    src: url("fuentes/florentia/Florentia-Regular-trial.ttf");
+}
+
+.banner {
+    background-image: url('../img/imagenbannersuperior.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    color: #706f6f;
+    padding: 20px;
+    text-align: left;
+    margin-left: 10%;
+    display: block;
+}
+
+.banner-PagoCal {
+    background-image: url('../img/bannerPagoCalidad.png');
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    margin: 20px;
+    
+}
+
+.banner-anuncios .contenedor {
+    border: 1px solid #d6dad8;
+    object-position: center center;
+    border-radius: 15px;
+    float: left;
+    margin: 1%;
+    padding-top: 15px;
+    text-align: center;
+    width: 22.75%;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+
+.contenedor h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #e67e22;
+}
+
+.contenedor p {
+    font-size: 14px;
+    color: #4e4d4d;
+    line-height: 1.5;
+}
+
+.banner-anuncios .contenedor .galletitas img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 1px solid #22a6b3;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenedor button {
+    color: rgb(255, 255, 255);
+    font-family: "Florentia-regular";
+    font-size: 14px;
+    border: 0px;
+    border-radius: 5px;
+    background: #22a6b3;
+    margin: 5%;
+    padding: 10px;
+    filter: drop-shadow(1px 1px 2px rgb(170, 168, 168));
+}
+
+.footer-anuncio {
+    width: 100%;
+    margin: 10px;
+    background-color: #706f6f;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.mascostas .imagen {
+    float: left;
+    margin-left: 70px;
+    margin-right: 40px;
+    width: 23%;
+}
+
+.imagen img {
+    width: 110%;
+    height: 110%;
+}
+
+.mascostas .info {
+    margin: 5%;
+}
+
+.mascostas .info h2 {
+    color: #e74c3c;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.mascostas .info hr {
+    border: 1px solid;
+    color: #e74c3c;
+}
+
+.fraseFinal {
+    margin-bottom: 20px;
+}
+
+.fraseFinal p {
+    font-size: 24px;
+    color: #b6b3b3;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 1.2;
+}
+
+.fraseFinal .quote {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: #e74c3c;
+}
+
+.fraseFinal .quote-end {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: #e74c3c;
+}
+
+.patita {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(231, 119, 119);
+}

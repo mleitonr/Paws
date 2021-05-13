@@ -1,0 +1,282 @@
+.btn {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Florentia-regular";
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-social {
+  background-color: #b4b6b8;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+}
+
+.btn-social:focus {
+  outline: 0;
+}
+
+/* Header del administrador*/
+
+.header-principal .menu-principal #btn-perfil {
+  background-image: url(/img/perfil-vacio.png);
+  background-position: center;
+  background-size: cover;
+  border-color: #ffffff;
+  height: 40px;
+  width: 50px;
+}
+
+/* Estilos de la section actividad */
+
+.actividad .titulo h1 {
+  display: block;
+  font-size: 40px;
+  padding: 20px 400px;
+  text-align: center;
+}
+
+.actividad .titulo {
+  background-image: url("../img/actividad-fondo.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.botones {
+  background-color: #979797b4;
+  display: flow-root;
+  height: 170px;
+}
+
+.botones .botones-izq {
+  float: left;
+  padding-top: 50px;
+  text-align: center;
+  width: 25%;
+}
+
+.botones .botones-der {
+  float: right;
+  padding-top: 50px;
+  text-align: center;
+  width: 25%;
+}
+
+.graficos {
+  display: flow-root;
+}
+
+.graficos .reportes {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.img-reporte {
+  border-radius: 10px;
+  height: 300px;
+  margin-left: -180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p-num {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Estilos de la section de redes sociales */
+
+.redes-sociales {
+  display: block;
+  width: 100%;
+  background-color: #b4b6b8;
+}
+
+.redes-sociales .redes-contenedor {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.redes-sociales .redes-txt {
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.redes-sociales .contenedor-redes {
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-social {
+  height: 50px;
+  width: auto;
+  padding: 0%;
+  margin: 0 30px;
+}
+
+/* Estilos de la section del menú */
+
+.menu {
+  display: flow-root;
+}
+
+.opcion {
+  display: inline-block;
+}
+
+.menu .opcion {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+}
+
+.img-menu img {
+  height: 180px;
+  padding: 30px;
+}
+
+.contenedor-externo {
+  width: 100%;
+  display: block;
+  margin-bottom: 70px;
+}
+
+.contenedor-interno {
+  width: 95%;
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.contenedor-externo .contenedor-interno .grupo-reportes {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-gestionar {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-registros {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-gestionar button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/admin-home-gestionar.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-reportes button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/admin-home-reportes.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-registros button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/admin-home-registros-pendientes.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-gestionar button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-reportes button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-registros button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}

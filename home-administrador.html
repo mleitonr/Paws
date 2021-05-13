@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inicio | Administrador</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/home-administrador.css">
+</head>
+
+<body>
+    <!--Section del header-->
+    <header>
+        <nav class="header-principal">
+            <a href="#" class="logo"><img src="/img/LogoPawsW.png" alt="logo"></a>
+            <div class="menu-principal">
+                <a href="home-administrador.html">Inicio</a>
+                <a href="admin-listar-solicitudes-proveedores.html">Registros pendientes</a>
+                <a href="admin-gestionar.html">Gestionar</a>
+                <a href="listado-usuarios.html">Usuarios</a>
+                <a href="admin-reportes.html">Reportes</a>
+                <a href=""><img src="img/separador-menus.png" alt="separador" class="separador"></a>
+                <a href="admin-perfil.html">Perfil</a>
+                <a id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <!--Section de Actividad-->
+        <section class="actividad">
+            <div class="titulo"></div>
+            <div class="botones">
+                <div class="botones-izq">
+                    <button type="button" class="btn" id="btn-servicios-contratados">
+                        <p>231</p>
+                    </button>
+                    <p class="p-num">Servicios Contratados</p>
+                </div>
+                <div class="botones-izq">
+                    <button type="button" class="btn" id="btn-usuarios-duenos">
+                        <p>347</p>
+                    </button>
+                    <p class="p-num">Usuarios Dueños</p>
+                </div>
+                <div class="botones-der">
+                    <button type="button" class="btn" id="btn-usuarios-proveedores">
+                        <p>526</p>
+                    </button>
+                    <p class="p-num">Usuarios Proveedores</p>
+                </div>
+                <div class="botones-der">
+                    <button type="button" class="btn" id="btn-visitas-paginas">
+                        <p>1432</p>
+                    </button>
+                    <p class="p-num">Visitas a la página</p>
+                </div>
+            </div>
+
+            <div class="graficos">
+                <div class="reportes" id="analisis">
+                    <button type="button" class="btn">
+                        <img src="/img/reporte1.png" alt="reporte1" class="img-reporte">
+                        <p>Análisis de visitas del mes</p>
+                    </button>
+                </div>
+                <div class="reportes" id="actividad">
+                    <button type="button" class="btn">
+                        <img src="/img/reporte2.png" alt="reporte2" class="img-reporte">
+                        <p>Actividad de hoy</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="contenedor-externo">
+            <div class="contenedor-interno">
+                <div class="grupo-registros">
+                    <a href="admin-listar-solicitudes-proveedores.html"><button>Solicitudes pendientes de
+                            proveedores</button></a>
+                </div>
+                <div class="grupo-gestionar">
+                    <a href="admin-gestionar.html"><button>Gestiones</button></a>
+                </div>
+                <div class="grupo-reportes">
+                    <a href="admin-reportes.html"><button>Reportería</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="redes-contenedor">
+                <div class="redes-txt">
+                    <h2>Administrar redes sociales</h2>
+                </div>
+                <div class="contenedor-redes">
+                    <button type="button" class="btn-social" id="btn-facebook">
+                        <img src="/img/facebook-icon.png" alt="facebook" class="img-social">
+                    </button>
+
+                    <button type="button" class="btn-social" id="btn-instagram">
+                        <img src="/img/instagram-icon.png" alt="instagram" class="img-social">
+                    </button>
+                    <button type="button" class="btn-social" id="btn-twitter">
+                        <img src="/img/twitter-icon.png" alt="twitter" class="img-social">
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Section del footer-->
+    <footer class="footer-principal ">
+        <div class="footer-interno ">
+            <div class="elementos-footer ">
+                <h1>Enlaces</h1>
+                <br>
+                <div class="subrayado-footer "></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="# ">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="# ">
+                        <li>Sobre nosotros</li>
+                    </a>
+                    <a href="# ">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer ">
+                <h1>Otros enlaces</h1>
+                <br>
+                <div> </div>
+                <div class="subrayado-footer "></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="# ">
+                        <li>Términos y condiciones</li>
+                    </a>
+                    <a href="# ">
+                        <li>Preguntas frecuentes</li>
+                    </a>
+                    <a href="# ">
+                        <li>Privacidad y datos</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer ">
+                <h1>Contacto</h1>
+                <br>
+                <div class="subrayado-footer "></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <li><i class="fa fa-map-marker " aria-hidden="true "></i>San José, C.R.</li>
+                    <li><i class="fa fa-phone " aria-hidden="true "></i>+(506)22556688</li>
+                    <li><i class="fa fa-envelope " aria-hidden="true "></i>info@pawscr.com</li>
+                </ul>
+            </div>
+            <div class="elementos-footer ">
+                <a href="# " class="logo "><img src="/img/LogoPaws4.png " alt="logo "></a>
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="social-media ">
+            <a href="# "><i class="fa fa-instagram "></i></a>
+            <a href="# "><i class="fa fa-facebook "></i></a>
+            <a href="# "><i class="fa fa-twitter "></i></a>
+        </div>
+        <div class="footer-abajo ">
+            Copyright &copy; Pulsares 2021.
+        </div>
+        <br>
+    </footer>
+    <script src="js/cerrar-sesion.js"></script>
+</body>
+
+</html>

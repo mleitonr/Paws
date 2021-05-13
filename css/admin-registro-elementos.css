@@ -1,0 +1,115 @@
+/* Inicio - Formulario Admin registro elementos (Razas, vacunas, padecimientos, etc). */
+body {
+    background-image: url('../img/fondopatitas.png');
+    background-position: center;
+    background-size: cover;
+}
+.wrap-form{
+    width: 100%;
+    display: block;
+}
+.formulario{
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario .formulario-interno div {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.formulario .formulario-interno label {
+margin-left: 80px;
+}
+
+.formulario h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+    margin-top: 150px;
+}
+
+.formulario div{
+    margin-bottom: 20px;
+    width: 100%;
+    letter-spacing: 3px;
+    
+}
+.formulario label{
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formulario input{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario textarea{
+    width: 600px;
+}
+.formulario select{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario .btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    outline: none;
+}
+
+.formulario .btn-cancel a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.formulario .btn:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    background: #e67e22;
+    cursor: pointer;
+}
+
+.formulario .btn-cancel {
+    background: #808080;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    margin-right: 80px;
+    outline: none;
+}
+
+.formulario .btn-cancel:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    background: #e74c3c;
+    cursor: pointer;
+}
+
+/* Inicio - Formulario Admin registro elementos (Razas, vacunas, padecimientos, etc). */

@@ -1,0 +1,210 @@
+.titulo-reportes h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-top: 80px;
+}
+
+.desc h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 80px 80px;
+
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #27ae5f44;
+  margin: 80px;
+}
+
+.contenedor-externo {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-interno {
+  width: 95%;
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.contenedor-externo .contenedor-interno .grupo-usuarios {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-demandas {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-destacados {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-visitas {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor-externo .contenedor-interno .grupo-registros {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.contenedor-externo .contenedor-interno .grupo-usuarios button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/reportes/reporte-usuarios.jpg");
+}
+
+
+.contenedor-externo .contenedor-interno .grupo-demandas button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-image: url("../img/reportes/reporte-demandas.jpg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.contenedor-externo .contenedor-interno .grupo-destacados button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-image: url("../img/reportes/reporte-destacados.jpg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.contenedor-externo .contenedor-interno .grupo-visitas button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-image: url("../img/reportes/reporte-visitas.jpg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.contenedor-externo .contenedor-interno .grupo-registros button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-image: url("../img/reportes/reporte-registro.jpg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.contenedor-externo .contenedor-interno .grupo-usuarios button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-demandas button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-destacados button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-visitas button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-registros button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}

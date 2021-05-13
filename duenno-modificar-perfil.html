@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/duenno-registrar.css">
+    <title>Editar dueño mascota | Paws</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-principal">
+            <a href="#" class="logo">
+                <img src="img/LogoPawsW.png" alt="logo">
+            </a>
+            <div class="menu-principal">
+                <a href="duenno-home.html">Inicio</a>
+                <a href="duenno-servicios.html">Servicios</a>
+                <a href="duenno-listar-mascotas.html">Mis mascotas</a>
+                <a href="">
+                    <img src="img/separador-menus.png" alt="separador" class="separador">
+                </a>
+                <a href="duenno-perfil.html">Mi perfil</a>
+                <a id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bannerPlaca"><img src="img/placaRegistroDuenno.png"> </section>
+        <br>
+        <section class="titulo">
+            <h1>Editar mis datos</h1>           
+        </section>
+        <section class="wrap-form">
+
+            <div class="foto">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <div class="insertar">
+                <button type="button">Insertar imagen</button>
+            </div>
+
+            <div class="inner-form">
+                <form class="form-duenno">
+                    <div>
+                        <input type="text" id="txt-nombre" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <input type="text" id="txt-apellido1" placeholder="Primer apellido" required>
+                    </div>
+                    <div>
+                        <input type="text" id="txt-apellido2" placeholder="Segundo apellido" required>
+                    </div>
+                    <div class="select">
+                        <select class="select-option" id="slt_tipo_identificacion" required>
+                            <option value="">Seleccione su tipo de identificación</option>
+                            <option value="Cédula de identidad">Cédula de identidad</option>
+                            <option value="Cédula de residencia">Cédula de residencia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="number" id="num-identificacion" placeholder="Número de identificación" required>
+                    </div>
+                    <div>
+                        <input class="nacimiento" type="date" id="nacimiento" required>
+                    </div>
+    
+                    <div>
+                        <input type="text" id="num-telefono" placeholder="Teléfono" required>
+                    </div>
+                    <div>
+                        <input type="email" id="txt-correo" placeholder="nombre@correo.com" required>
+                    </div>
+                    <div class="select">
+                        <select class="select-option" id="slt-genero" required>
+                            <option value="">Seleccione un género</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        <section class="botones-form">
+            <div class="botones-inner">
+                <a href="duenno-perfil.html"><button type="button" id="btn-cancelar" class="btn">
+                        Cancelar
+                    </button></a>
+                <button type="button" id="btn-guardar" class="btn">
+                    Guardar cambios
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!--Section del footer-->
+    <footer class="footer-principal">
+        <div class="footer-interno">
+            <div class="elementos-footer">
+                <h1>Enlaces</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="index.html">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="# ">
+                        <li>Sobre nosotros</li>
+                    </a>
+                    <a href="# ">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Otros enlaces</h1>
+                <br>
+                <div> </div>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="# ">
+                        <li>Términos y condiciones</li>
+                    </a>
+                    <a href="# ">
+                        <li>Preguntas frecuentes</li>
+                    </a>
+                    <a href="# ">
+                        <li>Privacidad y datos</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Contacto</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true "></i>San José, C.R.</li>
+                    <li><i class="fa fa-phone" aria-hidden="true "></i>+(506)22556688</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true "></i>info@pawscr.com</li>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <a href="# " class="logo"><img src="img/LogoPaws4.png " alt="logo"></a>
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-instagram "></i></a>
+            <a href="#"><i class="fa fa-facebook "></i></a>
+            <a href="#"><i class="fa fa-twitter "></i></a>
+        </div>
+        <div class="footer-abajo">
+            Copyright &copy; Pulsares 2021.
+        </div>
+        <br>
+    </footer>
+
+    <!-- Scripts de terceros -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- Scripts propios -->
+    <script src="js/duenno-servicio.js"></script>
+    <script src="js/duenno-modificar.js"></script>
+    <script src="js/cerrar-sesion.js"></script>
+    
+</body>
+
+</html>

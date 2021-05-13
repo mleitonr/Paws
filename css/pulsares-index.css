@@ -1,0 +1,606 @@
+@font-face {
+    font-family: "Florentia-regular";
+    src: url("fuentes/florentia/Florentia-Regular-trial.ttf");
+}
+
+
+
+.error {
+    box-shadow: 2px 2px 5px #cf2e2e;
+}
+
+
+html,body{
+    height: 100vh;
+    font-family: 'Florentia-regular';
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid  #27ae5f44;
+    margin: 80px;
+}
+
+
+
+.header-principal {
+    overflow: hidden;
+    background-color: #e67e22;
+    padding: 20px 10px;
+    border-top: 1px solid #000;
+    justify-content: center;
+}
+
+.header-principal .menu-principal {
+    display: flow-root;
+}
+
+.header-principal .menu-principal a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    line-height: 25px;
+}
+
+
+
+.header-principal a:hover {
+    cursor: pointer;
+    transition: 100ms;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.header-principal a .active {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.separador {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-principal {
+    padding: 15px 0;
+    float: right;
+    position: relative;
+}
+.menu-principal-interno {
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    padding: 10px 0;
+}
+
+
+main{
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+/* Inicio - Estilos del Header general*/
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header .logo {
+    
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header .logo .logo-pulsares {
+    margin: 0 auto;
+    width: 280px;
+    height: 150px;
+    background-image: url('../img/LogoPulsares.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.menu .menu-inner {
+    align-items: center;
+    text-align: center;
+}
+
+.menu .menu-inner a {
+    color: #000;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Florentia-regular';
+    line-height: 25px;
+}
+
+
+
+.menu a:hover {
+    cursor: pointer;
+    transition: 300ms;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+.separador {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Fin - Estilos del Header general*/
+
+/* Inicio - Estilos del Main general*/
+
+main{
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* Fin - Estilos del Main general */
+
+/* Inicio - Estilos del footer general */
+
+.footer-principal {
+    width: 100%;
+    background: #fff;
+    display: block;
+}
+
+.footer-interno {
+    width: 95%;
+    margin: auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.elementos-footer {
+    width: 25%;
+    padding: 1px 50px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+
+.elementos-footer p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 25px;
+    color: #000;
+}
+
+.subrayado-footer {
+    height: 2px;
+    width: 148px;
+    background: #2f941d;
+    color: #2f941d;
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+ul a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    transition: 0.3s;
+    font-family: 'Florentia-regular';
+}
+
+ul a:hover {
+    color: #908700;
+    cursor: pointer;
+}
+
+ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+li i {
+    margin-right: 20px;
+}
+
+.social-media {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+    
+}
+
+.social-media i {
+    height: 25px;
+    width: 25px;
+    margin: 20px 10px;
+    color: #000;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.social-media i:hover {
+    transform: scale(1.5);
+}
+
+.footer-abajo {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.elementos-footer .derechos-centro {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-image: url('../img/banner-pulsares.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.info-pulsares {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.info-pulsares .ir-paws {
+    width: 95%;
+    margin: auto;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.info-pulsares .ir-paws button {
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 200px;
+    border: none;
+    box-shadow: 1px 1px 2px #5f5f5f;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Florentia-regular";
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(49, 49, 49, 0.739);
+    height: 300px;
+    width: 600px;
+    background-image: url("../img/registrar-segun-tipo/registrar-proveedor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.info-pulsares .ir-paws button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main .headline h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 40px 0;
+}
+
+.info-pulsares h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.info-pulsares p {
+    text-align: justify;
+    margin: 25px 0px 25px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.banner-medio {
+    background-image: url('../img/pulsares-medio-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* Inicio - Sección de las Siglas */
+
+.mision-vision {
+    width: 100%;
+    display: block;
+}
+
+.mision-vision .mision-vision-interno {
+    width: 60%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.mision-vision .mision-vision-interno .mision h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mision-vision .mision-vision-interno .mision p {
+    text-align: justify;
+    margin: 25px 0px 25px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+
+.mision-vision .mision-vision-interno .vision h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mision-vision .mision-vision-interno .vision p {
+    text-align: justify;
+    margin: 25px 0px 25px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+/* Fin - Sección de las Siglas */
+
+
+/* Inicio - Sección de testimonios */
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wrapper-2 {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wrapper .caja-integrantes {
+    background: #54A348;
+    border-radius: 3px;
+    padding: 25px;
+    width: 380px;
+    color: #fff;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.wrapper .caja-integrantes .quote{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.wrapper .caja-integrantes .contenido-testimonio {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .caja-integrantes .contenido-testimonio .foto-testimonio {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.caja-integrantes .contenido-testimonio .foto-testimonio img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #2f941d;
+}
+
+.wrapper .caja-integrantes .info-testimonio .nombre {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.wrapper .caja-integrantes .info-testimonio .rol {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.titulo-integrantes h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.wrapper-2 .caja-integrantes {
+    background: #54A348;
+    border-radius: 3px;
+    padding: 25px;
+    width: 380px;
+    color: #fff;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.wrapper-2 .caja-integrantes .quote{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.wrapper-2 .caja-integrantes .contenido-testimonio {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-2 .caja-integrantes .contenido-testimonio .foto-testimonio {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.wrapper-2 .caja-integrantes .info-testimonio .nombre {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.wrapper-2 .caja-integrantes .info-testimonio .rol {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/* Fin - Sección de testimonios */
+
+
+/* Inicio - Contacto */
+
+.wrap-form{
+    width: 100%;
+    display: block;
+}
+.formulario{
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.formulario h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.formulario div{
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.formulario label{
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario input{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario textarea{
+    width: 600px;
+}
+.formulario select{
+    height: 45px;
+    width: 600px;
+}
+
+.formulario .btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    outline: none;
+
+}
+
+.formulario .btn:hover {
+    transition: 500ms;
+    background: #e67e22;
+    cursor: pointer;
+}
+
+/* Fin - Contacto */
+

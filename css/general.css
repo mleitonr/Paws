@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Florentia-regular";
+    src: url("fuentes/florentia/Florentia-Regular-trial.ttf");
+}
+
+html,body{
+    height: 100vh;
+    font-family: 'Florentia-regular';
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.error {
+    box-shadow: 2px 2px 5px #cf2e2e;
+}
+
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid  #27ae5f44;
+    margin: 80px;
+}
+
+
+/* Inicio - Estilos del Header general*/
+
+.header-principal {
+    overflow: hidden;
+    background-color: #e67e22;
+    padding: 30px 10px;
+    border-top: 1px solid #000;
+    justify-content: center;
+    border: none;
+}
+
+.header-principal .menu-principal {
+    display: flow-root;
+}
+
+.header-principal .menu-principal a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    line-height: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.header-principal a:hover {
+    cursor: pointer;
+    transition: 100ms;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.header-principal a .active {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.separador {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-principal {
+    padding: 15px 0;
+    float: right;
+    justify-content: center;
+}
+.menu-principal-interno {
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .header-principal a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .menu-principal {
+        float: none;
+    }
+    .separador {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/* Fin - Estilos del Header general*/
+
+/* Inicio - Estilos del Main general*/
+
+main{
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* Fin - Estilos del Main general */
+
+/* Inicio - Estilos del footer general */
+
+.footer-principal {
+    width: 100%;
+    background: #000000;
+    display: block;
+}
+
+.footer-interno {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.elementos-footer {
+    width: 25%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.elementos-footer p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 25px;
+    color: #fff;
+}
+
+.subrayado-footer {
+    height: 2px;
+    width: 148px;
+    background: #e67e22;
+    color: #e67e22;
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+    font-family: 'Florentia-regular';
+    cursor: pointer;
+}
+
+ul a:hover {
+    color: #e67e22;
+}
+
+ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+li i {
+    margin-right: 20px;
+}
+
+.social-media {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+    
+}
+
+.social-media i {
+    height: 25px;
+    width: 25px;
+    margin: 20px 10px;
+    color: #fff;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.social-media i:hover {
+    transform: scale(1.5);
+}
+
+.footer-abajo {
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-abajo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Modo de vista para tablets */
+
+@media screen and (max-width: 1275px) {
+    .elementos-footer {
+        width: 50%;
+    }
+}
+
+
+/* Modo de vista para celulares */
+
+@media screen and (max-width: 500px) {
+    .elementos-footer {
+        width: 100%;
+    }
+}
+
+
+/* Fin - Estilos del footer general */

@@ -1,0 +1,85 @@
+main {
+    background-image: url(/img/fondopatitas.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrap-form {
+    width: 100%;
+    display: block;
+}
+
+.form-tarjeta {
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 80px 0;
+    font-family: "Florentia-regular";
+}
+
+.form-tarjeta h2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.form-tarjeta div {
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.form-tarjeta div a {
+    text-decoration: none;
+}
+
+.form-tarjeta label {
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-tarjeta input {
+    height: 45px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.form-tarjeta select {
+    height: 45px;
+    width: 600px;
+}
+
+.form-tarjeta .btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    outline: none;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.form-tarjeta .btn:hover {
+    transition: 300ms;
+    background: #e67e22;
+    cursor: pointer;
+}

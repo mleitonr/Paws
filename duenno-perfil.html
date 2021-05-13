@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mi perfil | Paws</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/duenno-perfil.css">
+</head>
+
+<body>
+    <!--Section del header-->
+    <header>
+        <nav class="header-principal">
+            <a href="#" class="logo">
+                <img src="img/LogoPawsW.png" alt="logo">
+            </a>
+            <div class="menu-principal">
+                <a href="duenno-home.html">Inicio</a>
+                <a href="duenno-servicios.html">Servicios</a>
+                <a href="duenno-listar-mascotas.html">Mis mascotas</a>
+                <a href="">
+                    <img src="img/separador-menus.png" alt="separador" class="separador">
+                </a>
+                <a href="duenno-perfil.html">Mi perfil</a>
+                <a id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--Section del main-->
+    <main>
+        <div id="fondo-perfil">
+            <h1 id="nombreCompleto"></h1>
+
+            <section id="botones">
+                <button type="button" class="btn">
+                    <img src="img/facebook-icon.png" alt="facebook-icon" class="icon-social">
+                </button>
+                <button type="button" class="btn">
+                    <img src="img/instagram-icon.png" alt="instagram-icon" class="icon-social">
+                </button>
+                <button type="button" class="btn">
+                    <img src="img/twitter-icon.png" alt="twitter-icon" class="icon-social">
+                </button>
+            </section>
+
+        </div>
+
+        <div id="foto-perfil">
+            <img id="imagen-perfil" src="img/perfil.png">
+        </div>
+
+        <section class="banner-perfil"></section>
+        <section class="perfil-contenedor">
+            <div class="perfil-interno">
+                <div class="grupo-perfil">
+                    <div class="info-titulo">
+                        <h2>Mi información</h2>
+                    </div>
+                    <div class="info-items">
+                        <img src="img/id.png" alt="" class="icon">
+                        <p id="identificacion" class="info"></p>
+                    </div>
+                    <div class="info-items">
+                        <img src="img/email.png" alt="" class="icon">
+                        <p id="correo" class="info"></p>
+                    </div>
+                    <div class="info-items">
+                        <img src="img/cumpleannos.png" alt="" class="icon">
+                        <p id="nacimiento" class="info"></p>
+                    </div>
+                    <div class="info-items">
+                        <img src="img/telefono.png" alt="" class="icon">
+                        <p id="telefono" class="info"></p>
+                    </div>
+                    <div class="info-items">
+                        <img src="img/genero.jpg" alt="" class="icon">
+                        <p id="sexo" class="info"></p>
+                    </div>
+
+                    <div class="botones-final-centrado">
+                        <a href="duenno-modificar-perfil.html"><button type="button" class="btn-verde">Editar mi
+                                perfil</button></a>
+                    </div>
+                </div>
+                <div class="grupo-perfil">
+                    <div class="info-titulo">
+                        <h2>Mis mascotas</h2>
+                    </div>
+                    <table id="tbl-mascotas" class="tabla">
+                        <thead>
+                            <tr>
+                                <th>Nombre de la mascota</th>
+                                <th>Edad</th>
+                                <th>Raza</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <div class="botones-final">
+                        <a href="duenno-registrar-mascota.html">
+                            <button type="button" class="btn-verde">Registrar mascota</button>
+                        </a>
+                    </div>
+
+                    <div class="info-titulo">
+                        <h2>Mis tarjetas</h2>
+                    </div>
+
+                    <table id="tbl-tarjetas" class="tabla">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Titular</th>
+                                <th>Tarjeta</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+
+                    <section class="botones-final">
+                        <a href="duenno-registrar-tarjeta.html">
+                            <button type="button" class="btn-verde">Registrar tarjeta</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!--Section del footer-->
+    <footer class="footer-principal ">
+        <div class="footer-interno ">
+            <div class="elementos-footer ">
+                <h1>Enlaces</h1>
+                <br>
+                <div class="subrayado-footer "></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="duenno-home.html">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="">
+                        <li>Sobre nosotros</li>
+                    </a>
+                    <a href="">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Otros enlaces</h1>
+                <br>
+                <div> </div>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="# ">
+                        <li>Términos y condiciones</li>
+                    </a>
+                    <a href="# ">
+                        <li>Preguntas frecuentes</li>
+                    </a>
+                    <a href="# ">
+                        <li>Privacidad y datos</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer ">
+                <h1>Contacto</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <li><i class="fa fa-map-marker " aria-hidden="true "></i>San José, C.R.</li>
+                    <li><i class="fa fa-phone " aria-hidden="true "></i>+(506)22556688</li>
+                    <li><i class="fa fa-envelope " aria-hidden="true "></i>info@pawscr.com</li>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <a href="# " class="logo">
+                    <img src="img/LogoPaws4.png" alt="logo">
+                </a>
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="# "><i class="fa fa-instagram "></i></a>
+            <a href="# "><i class="fa fa-facebook "></i></a>
+            <a href="# "><i class="fa fa-twitter "></i></a>
+        </div>
+        <div class="footer-abajo">
+            Copyright &copy; Pulsares 2021.
+        </div>
+        <br>
+    </footer>
+
+    <!--Scripts de terceros-->
+    <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!--Scripts propios-->
+    <script src="js/duenno-perfil.js"></script>
+    <script src="js/duenno-mascota-servicio.js"></script>
+    <script src="js/duenno-perfil-listar-mascotas.js"></script>
+    <script src="js/tarjeta-servicio.js"></script>
+    <script src="js/tarjeta-listar.js"></script>
+    <script src="js/cerrar-sesion.js"></script>
+    
+</body>
+
+</html>

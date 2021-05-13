@@ -1,0 +1,197 @@
+.banner {
+    background-image: url('../img/bannerProv.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.calificacion img {
+    width: 350px;
+    height: 75px;
+    display: block;
+    margin: auto;
+}
+
+.calificacion p {
+    font-size: 15px;
+    text-align: center;
+    color: #818283;
+    margin-bottom: 50px;
+}
+
+.servicio-boton hr {
+    width: 500px;
+    color: #b4b6b8;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.servicio-boton .crear-serv-btn {
+    text-align: center;
+}
+
+.servicio-boton button {
+    color: rgb(255, 255, 255);
+    font-family: "Florentia-regular";
+    font-size: 18px;
+    width: 250px;
+    height: 60px;
+    border: 0px;
+    border-radius: 5px;
+    background: #22a6b3;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    filter: drop-shadow(1px 1px 1px rgb(170, 168, 168));
+    margin-bottom: 50px;
+    outline: none;
+}
+
+.servicio-boton button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#btn-solicitudes-servicios {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#btn-denuncias {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+#btn-denuncias img {
+    width: 75px;
+    height: 75px;
+}
+
+#btn-solicitudes-servicios img {
+    width: 75px;
+    height: 75px;
+}
+
+.botones {
+    background-color: #b4b6b8;
+    display: flow-root;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+.botones .opcion img {
+    height: 110px;
+    width: 110px;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Florentia-regular';
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+#btn-estadoservicio {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textos-abajo-btn {
+    background-color: #b4b6b8;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.textos-abajo-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.textos-abajo-btn a:hover{
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.textos-abajo-btn .texto-boton-solicitudes {
+    margin-left: 38%;
+    padding-top: 10px;
+}
+
+.textos-abajo-btn .texto-boton-denuncias {
+    margin-left: 3.5%;
+    padding-top: 10px;
+}
+
+.estado-servicios {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.estado-servicios i {
+    color: #e74c3c;
+    font-size: 30px;
+}
+
+/* Estilos de la section de redes sociales */
+
+.redes-sociales .botones {
+    padding-top: 35px;
+    text-align: center;
+    
+}
+
+.img-social {
+    height: 105px;
+    width: auto;
+    padding: 0%;
+}
+
+.btn-social {
+    background-color: #fff;
+    border: none;
+    padding: 0%;
+}
+
+.botones-redes {
+    background-color: #fff;
+    display: flow-root;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+.botones-redes .btn-social .img-social {
+    height: 60px;
+    width: 60px;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}

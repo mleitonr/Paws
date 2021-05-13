@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inicio-sesion.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Crear mi contraseña | Paws</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-principal">
+            <a href="#" class="logo"><img src="img/LogoPawsW.png" alt="logo"></a>
+            <div class="menu-principal">
+                <a href="index.html">Inicio</a>
+                <a href=""><img src="img/separador-menus.png" alt="separador" class="separador"></a>
+                <a href="inicio-sesion.html">Iniciar sesión</a>
+                <a href="registrar-segun-tipo.html">Registrarme</a>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <div class="inicio-sesion">
+            <div class="form">
+                <form class="login-form">
+                    <input type="email" id="txt-correo" placeholder="Correo Electrónico" required>
+                    <input type="password" id="txt-contrasenna" placeholder="Contraseña nueva" required>
+                    <input type="password" id="txt-confirm-contrasenna" placeholder="Confirmar contraseña" required>
+                    <select id="roles" required>
+                        <option value="">-- Seleccione tipo de usuario --</option>
+                        <option value="Proveedor">Proveedor</option>
+                        <option value="Duenno">Dueño de mascota</option>
+                    </select>
+                    <button type="button" id="btn-crear" class="btn">Crear contraseña</button>
+                    
+                </form>
+            </div>
+        </div>
+
+        <!--Scripts de terceros-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        <!--Scripts propios-->
+        <script src="js/crear-contrasenna.js"></script>
+
+    </body>
+
+</html>

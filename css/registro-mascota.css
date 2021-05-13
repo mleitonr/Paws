@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Florentia-regular";
+    src: url("fuentes/florentia/Florentia-Regular-trial.ttf");
+}
+
+.wrap-form {
+    width: 100%;
+    display: block;
+    background-image: url('../img/fondopatitas.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-mascota .foto-perfil {
+    height: 250px;
+    width: 200px;
+    border: 1px solid #22a6b3;
+    border-radius: 2px;
+    background-image: url("../img/catdog.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.form-mascota .foto-perfil p {
+    margin-top: 260px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-mascota {
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.form-mascota h1 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    font-family: "Florentia-regular";
+}
+
+.form-mascota div {
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.form-mascota label {
+    display: inline-block;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-mascota input {
+    height: 30px;
+    width: 500px;
+}
+
+.form-mascota select {
+    height: 30px;
+    width: 510px;
+}
+
+.form-mascota .btn {
+    margin-top: 30px;
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    margin-left: 23%;
+}
+
+.form-mascota .btn:hover {
+    transition: 500ms;
+    background: #e67e22;
+    cursor: pointer;
+}

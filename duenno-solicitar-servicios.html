@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <title>Solicitar servicios</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/duenno-solicitar-servicios.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="header-principal">
+
+            <a href="#" class="logo">
+                <img src="img/LogoPawsW.png" alt="logo">
+            </a>
+            <div class="menu-principal">
+                <a href="duenno-home.html">Inicio</a>
+                <a href="duenno-servicios.html">Servicios</a>
+                <a href="duenno-listar-mascotas.html">Mis mascotas</a>
+                <a href="">
+                    <img src="img/separador-menus.png" alt="separador" class="separador">
+                </a>
+                <a href="duenno-perfil.html">Mi perfil</a>
+                <a id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="titulo-servicios">
+            <h1>Búsqueda de servicios</h1>
+        </section>
+        <hr>
+        <section class="botones-inicio">
+            <label>Filtrar <i class="fa fa-filter"></i></label>
+            <input type="text" id="txt-filtro">
+        </section>
+        <table id="tbl-servicios-general" class="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Horario desde</th>
+                    <th>Horario hasta</th>
+                    <th>Precio colones</th>
+                    <th>Descripción</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-interno">
+            <div class="elementos-footer">
+                <h1>Enlaces</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="duenno-home.html">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="index.html">
+                        <li>Sobre nosotros</li>
+                    </a>
+                    <a href="index.html">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Otros enlaces</h1>
+                <br>
+                <div> </div>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="#">
+                        <li>Términos y condiciones</li>
+                    </a>
+                    <a href="#">
+                        <li>Preguntas frecuentes</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacidad y datos</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Contacto</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>San José, C.R.</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>+(506)22556688</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>info@pawscr.com</li>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <a href="#" class="logo"><img src="img/LogoPaws4.png" alt="logo"></a>
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer-abajo">
+            Copyright &copy; Pulsares 2021.
+        </div>
+        <br>
+
+    </footer>
+
+    <!--Scripts de terceros-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!--Scripts propios-->
+    <script src="js/servicio-proveedor.js"></script>
+    <script src="js/duenno-listar-servicios.js"></script>
+    <script src="js/cerrar-sesion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/registro-mascota.css">
+    <title>Registro Mascota | Paws</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-principal">
+
+            <a href="#" class="logo"><img src="img/LogoPawsW.png" alt="logo"></a>
+            <div class="menu-principal">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Mis mascotas</a>
+                <a href=""><img src="img/separador-menus.png" alt="separador" class="separador"></a>
+                <a href="#">Perfil</a>
+                <a id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="wrap-form">
+            <form class="form-mascota">
+                <div>
+                    <h1>Registrar mascota</h1>
+                </div>
+                <div class="foto-perfil">
+                    <p>Subir imagen</p>
+                </div>
+                <div>
+                    <label for="txt-nombre">Nombre</label>
+                    <input type="text" id="txt-nombre" required>
+                </div>
+                <div>
+                    <label for="tipo-mascota">Tipo de mascota</label>
+                    <input type="text" id="tipo-mascota" required>
+                </div>
+                <div><label for="caract-especiales">Características especiales</label>
+                    <input type="text" id="caract-especiales" required>
+                </div>
+                <div>
+                    <label for="slt-tipoRaza">Raza</label>
+                    <select id="slt-tipoRaza" required>
+                        <option value="">--Seleccione el tipo de raza--</option>
+                        <option value="Boxer">Boxer</option>
+                        <option value="French Poodle">French Poodle</option>
+                        <option value="Golden Retriever">Golden Retriever</option>
+                        <option value="Husky">Husky</option>
+                        <option value="Labrador">Labrador</option>
+                        <option value="Pastor Aleman">Pastor Alemán</option>
+                        <option value="Zaguate">Husky</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="slt-tipoPadecimiento">Padecimientos</label>
+                    <select id="slt-tipoPadecimiento" required>
+                        <option value="">--Seleccione el padecimiento--</option>
+                        <option value="Alergia en la dermis">Alergia en la dermis</option>
+                        <option value="Epilepsia">Epilepsia</option>
+                        <option value="Cataratas">Cataratas</option>
+                        <option value="Afeccion en riñones">Afección en riñones</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="slt-tipoVacuna">Vacunas</label>
+                    <select id="slt-tipoVacuna" required>
+                        <option value="">--Seleccione la vacuna--</option>
+                        <option value="Distemper">Distemper</option>
+                        <option value="Parvovirus">Parvovirus</option>
+                        <option value="Hepatitis Infecciosa">Hepatitis Infecciosa</option>
+                        <option value="Rabia">Rabia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="txt-correo">Correo:</label>
+                    <input type="email" id="txt-correo" placeholder="micorreo@gmail.com" required>
+                </div>
+                <div><label for="txt-telefono">Teléfono</label>
+                    <input type="text" id="txt-telefono" required>
+                </div>
+
+                <button type="button" id="btn-registro" class="btn">Registrar</button>
+                <button type="button" id="btn-cancelar" class="btn">Cancelar</button>
+                </div>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-interno">
+            <div class="elementos-footer">
+                <h1>Enlaces</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="#">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="#">
+                        <li>Sobre nosotros</li>
+                    </a>
+                    <a href="#">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Otros enlaces</h1>
+                <br>
+                <div> </div>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <a href="#">
+                        <li>Términos y condiciones</li>
+                    </a>
+                    <a href="#">
+                        <li>Preguntas frecuentes</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacidad y datos</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <h1>Contacto</h1>
+                <br>
+                <div class="subrayado-footer"></div>
+                <!--agrega la linea de subrayado -->
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>San José, C.R.</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>+(506)22556688</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>info@pawscr.com</li>
+                </ul>
+            </div>
+            <div class="elementos-footer">
+                <a href="#" class="logo"><img src="img/LogoPaws4.png" alt="logo"></a>
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer-abajo">
+            Copyright &copy; Pulsares 2021.
+        </div>
+        <br>
+
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10 "></script>
+    <script src="js/registro-mascota.js "></script>
+    <script src="js/cerrar-sesion.js"></script>
+
+</body>
+
+
+</html>

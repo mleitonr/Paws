@@ -1,0 +1,132 @@
+.titulo-registro-tipo h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-top: 80px;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #27ae5f44;
+  margin: 80px;
+}
+
+.contenedor-externo {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-interno {
+  width: 95%;
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.contenedor-externo .contenedor-interno .grupo-pendientes {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-historial {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-adquirir {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-externo .contenedor-interno .grupo-historial button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/historial-servicios.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-pendientes button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/pendientes-servicios.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-adquirir button {
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 200px;
+  height: 300px;
+  width: 400px;
+  border: none;
+  box-shadow: 1px 1px 2px #5f5f5f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Florentia-regular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #313131bc;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  background-image: url("../img/adquirir-servicio.jpg");
+}
+
+.contenedor-externo .contenedor-interno .grupo-historial button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-pendientes button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedor-externo .contenedor-interno .grupo-adquirir button:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}

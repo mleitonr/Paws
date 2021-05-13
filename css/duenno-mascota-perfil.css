@@ -1,0 +1,236 @@
+.perfil {
+    width: 100%;
+    display: block;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 50px;
+    
+}
+
+.perfil-interno {
+    width: 95%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.perfil-interno .grupo {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfil-interno .grupo .foto-perfil img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #6d6d6d;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.info-mascota {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-mascota p,
+h2,
+ul {
+    color: #000;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 30px;
+    text-align: center;
+}
+
+.info-mascota hr {
+    margin-bottom: 50px;
+}
+
+.info-mascota ul li {
+    font-size: 18px;
+    margin: 25px;
+}
+
+.info-usuario {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.botones a{
+    text-decoration: none;
+}
+
+.btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 15px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    margin-right: 30px;
+}
+
+.btn:hover {
+    transition: 500ms;
+    background: #e67e22;
+    cursor: pointer;
+}
+
+
+.tabla {
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px rgb(107, 107, 107);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.tabla thead tr {
+    background: #19646b;
+    color: #fff;
+    height: 45px;
+    border-bottom: 1px solid #fff;
+}
+
+.tabla thead tr th {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #b4b6b8;
+    color: #fff;
+}
+
+.tabla tbody tr {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tabla tbody tr td {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.tabla .btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px #5f5f5f;
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+}
+
+.tabla tbody tr:nth-child(even) .btn {
+    background: #22a6b3;
+}
+
+.tabla .btn:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.botones-inicio {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.botones-inicio input {
+    height: 30px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.botones-inicio label {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+.form-ext {
+    border: 1px solid #5f5f5f;
+    border-radius: 20px;
+    padding: 40px 60px;
+    background: #41D17A;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-int {
+    background: #F0EED1;
+    display: flex;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.form-int ul {
+    margin: 0 auto;
+}
+
+.form-int ul li {
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+}
+
+.form-int ul li p{
+    margin-left: 10px;
+}
+
+.banner-perfil-mascota {
+    background-image: url('../img/banner-perfil-mascota.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+}
+
+.form-int span {
+    font-weight: 600;
+}

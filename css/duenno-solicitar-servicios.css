@@ -1,0 +1,269 @@
+.titulo-servicios h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 80px;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    margin-top: 40px;
+}
+
+.lista1 li {
+    padding-bottom: 40px;
+}
+
+.tabla {
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px #6b6b6b;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.tabla thead tr {
+    background: #34495f;
+    color: #fff;
+    height: 75px;
+    border-bottom: 1px solid #fff;
+    padding: 80px;
+}
+
+.tabla thead {
+    height: 100px;
+    padding: 80px;
+}
+
+.tabla thead tr th {
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.tabla .columna-grande {
+    width: 500px;
+    height: 300px;
+}
+
+.tabla .columna-peque {
+    width: 250px;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #b4b6b8;
+    color: #fff;
+}
+
+.tabla tbody tr {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tabla tbody tr td {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.tabla tbody tr td ul {
+    color: #000;
+    font-size: 18px;
+}
+
+.tabla tbody tr:nth-child(even) ul {
+    color: #fff;
+}
+
+.tabla .foto-proveedor {
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.contenedor {
+    width: 200px;
+    height: 250px;
+}
+
+.tabla tbody tr #proveedor1 {
+    background-image: url('/img/duenno-solicitar-servicios/proveedor1.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.tabla tbody tr #proveedor2 {
+    background-image: url('/img/duenno-solicitar-servicios/proveedor2.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.tabla tbody tr #proveedor3 {
+    background-image: url('/img/duenno-solicitar-servicios/proveedor3.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.tabla tbody tr #proveedor4 {
+    background-image: url('/img/duenno-solicitar-servicios/proveedor4.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.tabla button {
+    background: #22a6b3;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+}
+
+.tabla tbody tr:nth-child(even) .btn {
+    background: #22a6b3;
+    color: #fff;
+}
+
+.tabla button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.botones-inicio {
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botones-inicio label {
+    font-size: 18px;
+}
+
+.botones-inicio input {
+    height: 30px;
+    width: 300px;
+}
+
+.container {
+    width: max-content;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-top: -80px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-slider {
+    border: none;
+    background-color: #22a6b3;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.btn-slider:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.menu li .btn-slider a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.tabla tbody tr:nth-child(even) .btn-slider {
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.tabla tbody tr:nth-child(even) .btn-slider a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -10px;
+}

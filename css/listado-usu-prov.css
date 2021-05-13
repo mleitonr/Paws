@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Florentia-regular";
+    src: url("fuentes/florentia/Florentia-Regular-trial.ttf");
+}
+
+.lista .tabla button {
+    font-family: "Florentia-regular";
+    font-size: 14px;
+    margin-left: 25px;
+    background-color: #22a6b3;
+    color: #fff;
+    border: #9c9ea0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #999;
+}
+
+.lista h1 {
+    color: rgb(25, 100, 107);
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.listar-prov {
+    width: 100%;
+    display: block;
+}
+
+.lista {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.tabla {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.tabla tr {
+    height: 35px;
+}
+
+.tabla thead tr {
+    background: rgb(25, 100, 107);
+}
+
+.tabla thead tr th {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #b4b6b8;
+    color: #fff;
+}
+
+.tabla tbody tr td {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sin-resultados {
+    text-align: center;
+    color: #6b6b6b;
+    font-size: 18px;
+    font-style: italic;
+}

@@ -1,0 +1,244 @@
+.titulo h1 {
+    font-size: 28px;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #27ae5f44;
+    margin: 80px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.perfil {
+    width: 100%;
+    display: block;
+}
+
+.perfil-interno {
+    width: 95%;
+    margin: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.perfil-interno .grupo {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfil-interno .grupo .foto-perfil{
+    height: 500px;
+    width: 450px;
+    border-radius: 2px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.perfil-interno .grupo .foto-perfil img{
+    height: 500px;
+    width: 450px;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.info-empresa {
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-empresa p,
+h2,
+ul {
+    color: #000;
+}
+
+.info-empresa h2 {
+    font-size: 24px;
+}
+
+.info-empresa hr {
+    margin-bottom: 50px;
+}
+
+.info-empresa ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info-usuario {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-usuario p,
+h2,
+ul {
+    color: #000;
+}
+
+.info-usuario h2 {
+    font-size: 24px;
+}
+
+.info-usuario hr {
+    margin-bottom: 50px;
+}
+
+.info-usuario ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info-usuario p {
+    font-size: 18px;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.botones {
+    height: 100px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.boton-insertar {
+    margin: 0 auto;
+}
+
+.btn {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+    margin: 30px;
+    outline: none;
+}
+
+.btn:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#btn-editar:hover {
+    transition: 300ms;
+    background: #e67e22;
+    cursor: pointer;
+}
+
+#btn-insertar {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+}
+
+#btn-foto {
+    background: #22a6b3;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 18px;
+    font-family: 'Florentia-regular';
+    color: #fff;
+}
+
+#btn-foto:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#btn-insertar:hover {
+    transition: 500ms;
+    background: #e67e22;
+    cursor: pointer;
+}
+
+.grupo textarea {
+    display: block;
+    width: 300px;
+}
+
+.grupo input {
+    display: block;
+    width: 500px;
+    height: 35px;
+}
+
+.grupo select {
+    display: block;
+    width: 500px;
+}
+
+.grupo .campo {
+    margin: 30px 0;
+}
+
+.grupo .campo input {
+    margin: 8px 0;
+}
+
+.grupo .campo select {
+    margin: 8px 0;
+    width: 500px;
+    height: 35px;
+}
+
+.grupo .campo textarea {
+    margin: 8px 0;
+    width: 500px;
+}
+
+.wrap-form{
+    width: 500px;
+}
+
+.formulario{
+    width: 500px;
+}
+
+.formulario label{
+    font-size: 22px;
+    width: 500px;
+}
